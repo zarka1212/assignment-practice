@@ -199,7 +199,7 @@ text-transform: uppercase;
         margin:auto ;
         border-radius: 16px;
         width: 1300px;
-        height: 100px;
+        height: 1200px;
         align-items: left;
     }
 
@@ -232,7 +232,31 @@ text-transform: uppercase;
    max-width: 600px;
 
 }
-    
+
+.gift-grid{
+
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px; 
+  column-gap: 24px;
+  row-gap: 24px;
+
+
+}
+.image {
+    height: 450px;
+
+}
+
+.grid-item:hover {
+    border: 3px solid  #d00404;
+    border-radius: 16px;
+    height:449px ;
+    margin:-2px;
+   
+}
+
 
 
 
